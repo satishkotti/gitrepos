@@ -21,6 +21,7 @@ public class LaunchPage {
 		driver.get("http://www.google.com");
 		System.out.println("url" + driver.getCurrentUrl());
 		System.out.println("titel-" + driver.getTitle());
+		 driver.close();		
 		driver.quit();
 		
 		 
